@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "UE4_TPS (Debug)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPS Win64 Debug Build",
+			"program": "E:\\Unreal Projects\\UE4_TPS\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_TPS (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPS Win64 DebugGame Build",
+			"program": "E:\\Unreal Projects\\UE4_TPS\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_TPS (Development)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPS Win64 Development Build",
+			"program": "E:\\Unreal Projects\\UE4_TPS\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_TPS (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPS Win64 Shipping Build",
+			"program": "E:\\Unreal Projects\\UE4_TPS\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_TPS (Test)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPS Win64 Test Build",
+			"program": "E:\\Unreal Projects\\UE4_TPS\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_TPSEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPSEditor Win64 Debug Build",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\Unreal Projects\\UE4_TPS\\UE4_TPS.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_TPSEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPSEditor Win64 DebugGame Build",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"E:\\Unreal Projects\\UE4_TPS\\UE4_TPS.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_TPSEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "UE4_TPSEditor Win64 Development Build",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\Unreal Projects\\UE4_TPS\\UE4_TPS.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"E:\\Unreal Projects\\UE4_TPS\\UE4_TPS.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\EpicGames\\UE_4.25"
+		}
+	]
+}

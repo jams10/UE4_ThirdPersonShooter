@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"E:/Unreal Projects/UE4_TPS/.vscode": true,
+		"E:/Unreal Projects/UE4_TPS/Content": true,
+		"E:/Unreal Projects/UE4_TPS/Intermediate": true
+	}
+}
