@@ -81,3 +81,6 @@ Content/Models/*
 
 # Custom Asset Files
 Content/Assets/*
+
+# AssetPacks
+Content/AssetPacks/*
